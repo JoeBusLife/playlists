@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<form method="POST">
+	{% include "_form.html" %}
+	<a class="cancel" href="/playlists">Cancel</a>
+  <button class="g-button" type="submit">Add</button>
+</form>
+
+{% endblock %}
